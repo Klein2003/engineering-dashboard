@@ -33,3 +33,4 @@ def test_classify_power_critical():
     """ทดสอบสถานะ CRITICAL (> 1000 W)"""
     assert classify_power(1000.1) == "CRITICAL"
     assert classify_power(1500) == "CRITICAL"
+1213้
